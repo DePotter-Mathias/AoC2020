@@ -19,6 +19,7 @@ vector<string> read_file_as_vector( stringstream& ss, const char delimiter = '\n
 	}
 	return move( tokens );
 }
+
 //https://github.com/Chrinkus/advent-of-code-2020/blob/main/src/day13.cpp
 //all prop to Chrinkus
 //slight alterations made
@@ -86,6 +87,6 @@ int main()
 	//part2
 	{
 		const auto sol = win_contest( shuttles );
-		cout << "part 2 result: \n840493039281088\n" << sol << endl;
+		cout << "part 2 result: " << sol << endl;
 	}
 }
